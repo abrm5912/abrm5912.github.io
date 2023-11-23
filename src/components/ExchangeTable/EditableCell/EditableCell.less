@@ -1,0 +1,64 @@
+.ant-table-cell {
+    padding: 1vh;
+}
+
+.editable-cell {
+    position: relative;
+
+    &-value-wrap {
+        position: relative;
+        padding: 5px 12px;
+        width: 100%;
+        transition: background;
+
+        > .edit-icon {
+            display: none;
+            top: 0;
+            right: 0;
+            width: 20px;
+            height: 20px;
+        }
+
+        &:hover > .edit-icon {
+            display: initial;
+
+            &:hover path {
+                fill: red;
+            }
+        }
+    }
+
+    &-value-wrap  > .edit-icon,
+    &-input-wrap > .check-mark-icon,
+    &-input-wrap > .cross-icon {
+        position: absolute;
+        cursor: pointer;
+    }
+
+    &-input-wrap {
+        > .check-mark-icon,
+        > .cross-icon {
+            background-color: white;
+            width: 15px;
+            height: 15px;
+        }
+
+        > .check-mark-icon {
+            top: 5px;
+            right: 15px;
+
+            &-disabled {
+                cursor: not-allowed;
+
+                path {
+                    fill: grey;
+                }
+            }
+        }
+
+        > .cross-icon {
+            top: 5px;
+            right: 0;
+        }
+    }
+}

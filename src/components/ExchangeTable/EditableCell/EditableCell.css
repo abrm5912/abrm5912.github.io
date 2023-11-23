@@ -1,0 +1,52 @@
+.ant-table-cell {
+  padding: 1vh;
+}
+.editable-cell {
+  position: relative;
+}
+.editable-cell-value-wrap {
+  position: relative;
+  padding: 5px 12px;
+  width: 100%;
+  transition: background;
+}
+.editable-cell-value-wrap > .edit-icon {
+  display: none;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+.editable-cell-value-wrap:hover > .edit-icon {
+  display: initial;
+}
+.editable-cell-value-wrap:hover > .edit-icon:hover path {
+  fill: red;
+}
+.editable-cell-value-wrap > .edit-icon,
+.editable-cell-input-wrap > .check-mark-icon,
+.editable-cell-input-wrap > .cross-icon {
+  position: absolute;
+  cursor: pointer;
+}
+.editable-cell-input-wrap > .check-mark-icon,
+.editable-cell-input-wrap > .cross-icon {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+}
+.editable-cell-input-wrap > .check-mark-icon {
+  top: 5px;
+  right: 15px;
+}
+.editable-cell-input-wrap > .check-mark-icon-disabled {
+  cursor: not-allowed;
+}
+.editable-cell-input-wrap > .check-mark-icon-disabled path {
+  fill: grey;
+}
+.editable-cell-input-wrap > .cross-icon {
+  top: 5px;
+  right: 0;
+}
+/*# sourceMappingURL=EditableCell.css.map */
