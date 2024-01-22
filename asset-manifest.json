@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/abrm5912/react-exchange/static/css/main.ce8cbc16.css",
+    "main.js": "/abrm5912/react-exchange/static/js/main.88469391.js",
+    "static/media/logo.svg": "/abrm5912/react-exchange/static/media/logo.36c8c7b75cdef6d2cc32957b88e4595c.svg",
+    "static/media/edit.svg": "/abrm5912/react-exchange/static/media/edit.acd07be0d61f8da343dcc80ccea7508d.svg",
+    "static/media/reverse.svg": "/abrm5912/react-exchange/static/media/reverse.9df8636fac58044f6776a5b99580dc53.svg",
+    "static/media/check-mark.svg": "/abrm5912/react-exchange/static/media/check-mark.d82026423201475e0a9c13babf18cd06.svg",
+    "static/media/cross.svg": "/abrm5912/react-exchange/static/media/cross.d497bca7f6b5bb30e6928be32e094c90.svg",
+    "index.html": "/abrm5912/react-exchange/index.html",
+    "main.ce8cbc16.css.map": "/abrm5912/react-exchange/static/css/main.ce8cbc16.css.map",
+    "main.88469391.js.map": "/abrm5912/react-exchange/static/js/main.88469391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce8cbc16.css",
+    "static/js/main.88469391.js"
+  ]
+}
